@@ -23,7 +23,7 @@ export default function FormLogin(props) {
         </div>
 
         <div class="form-group row">
-            <CommonButton value="Inicia sesión"  style="btn btn-success btn-lg"  onClick={props.onClickLogin}></CommonButton>
+            <CommonButton value="Inicia sesión"  style="btn btn-danger btn-lg"  onClick={props.onClickLogin}></CommonButton>
               
         </div>
         <div class="form-group row">
