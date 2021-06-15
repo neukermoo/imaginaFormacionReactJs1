@@ -14,7 +14,6 @@ export default function Store() {
         GET('https://fakestoreapi.com/products')
         .then(data => {
             dispatch(guardarListado(data));
-            console.log("❌ Algo ha ido mal con la petición...");
 
         })
         .catch(error => {
